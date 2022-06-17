@@ -1,0 +1,5 @@
+<Animal>
+    <name>Vasya</name>
+    <age>15</age>
+    <withTail>false</withTail>
+</Animal>
