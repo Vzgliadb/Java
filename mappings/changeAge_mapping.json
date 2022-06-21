@@ -1,0 +1,17 @@
+{
+    "request": {
+        "urlPathPattern": "/user/([a-zA-Z]+)",
+        "method": "PATCH",
+        "bodyPatterns":[{
+            "equalToJson":{"age":"${json-unit.any-number}"},
+            "ignoreExtraElements": true
+        }]
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": { "status": "Done", "message": "Age Changed"},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

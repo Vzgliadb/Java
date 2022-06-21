@@ -1,0 +1,13 @@
+{
+    "request": {
+        "urlPathPattern": "/user/([a-zA-Z]+)",
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": { "status": "Done", "message": "User Found"},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

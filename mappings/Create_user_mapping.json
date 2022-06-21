@@ -1,0 +1,13 @@
+{
+    "request": {
+        "urlPathPattern": "/create/user",
+        "method": "POST"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": { "status": "Done", "message": "User Created"},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
