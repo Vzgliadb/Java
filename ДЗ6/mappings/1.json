@@ -1,0 +1,19 @@
+{
+	"priority": 10,
+	"request": {
+		"method": "ANY",
+		"urlPathPattern": ".*"
+	},
+	"response": {
+		"status": 414,
+		"delayDistribution": {
+			"type": "uniform",
+			"lower":30,
+			"upper":50
+		},
+		"body": "<error><error_code>414</error_code><description> --- Too long!</description></error>",
+		"headers": {
+			"Content-Type": "text/xml"
+		}	
+	}
+}

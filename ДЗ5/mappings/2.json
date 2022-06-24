@@ -1,0 +1,13 @@
+{
+    "request": {
+        "urlPattern": "/transaction/\\?price=([0-9]+)\\&date=[0-9]{4}\\-(0[1-9]|1[012])\\-(0[1-9]|[12][0-9]|3[01])$",
+        "method": "GET"
+               },
+    "response": {
+        "status": 200,
+        "jsonBody": { "status": "Done"},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
